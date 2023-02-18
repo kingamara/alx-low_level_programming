@@ -1,6 +1,7 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
-<<<<<<< HEAD
-=======
 /**
  * main - assigns a random number to int n everytime
  *it executes, and prints it
@@ -33,4 +34,3 @@ int main(void)
 	return (0);
 
 }
->>>>>>> f34aa2373188d819756c941d469434dfe9aec702

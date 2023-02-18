@@ -6,6 +6,7 @@
  */
 int main(void)
 {
+<<<<<<< HEAD
         char ch;
 
   foCXXCr (ch = 'a'; ch <= 'z'; ch++)
@@ -14,4 +15,14 @@ int main(void)
     putchar(ch);
   putchar('\n');
   return (0);
+=======
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
+	putchar('\n');
+	return (0);
+>>>>>>> c474bfaeb52d3c209c6b8ceea579a475c96d0a04
 }

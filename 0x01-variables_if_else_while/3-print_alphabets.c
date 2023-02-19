@@ -1,28 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - prints alphabet in lower and upper case
- * Return: 0 (success)
- */
+ *  * main - Entry point
+ *   * program that prints the alphabet in lowercase and then in uppercase
+ *    * Return: 0 (success)
+ *     */
 int main(void)
-{
-<<<<<<< HEAD
-        char ch;
+{	char al = 'a', AL = 'A';
 
-  foCXXCr (ch = 'a'; ch <= 'z'; ch++)
-    putchar(ch);
-  for (ch = 'A'; ch <= 'Z'; ch++)
-    putchar(ch);
-  putchar('\n');
-  return (0);
-=======
-	char ch;
-
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
-	putchar('\n');
-	return (0);
->>>>>>> c474bfaeb52d3c209c6b8ceea579a475c96d0a04
+for (al = 'a'; al <= 'z'; al++)
+{	putchar(al);
+}
+for (AL = 'A'; AL <= 'Z'; AL++)
+{	putchar(AL);
+}
+putchar('\n');
+return (0);
 }

@@ -3,8 +3,9 @@
 /**
  *  * main - Entry point
  *   * program that prints the alphabet in lowercase and then in uppercase
- *    * Return: 0 (success)
- *     */
+ *    * Return: 0 (success)  
+*/
+
 int main(void)
 {	char al = 'a', AL = 'A';
 
@@ -16,4 +17,5 @@ for (AL = 'A'; AL <= 'Z'; AL++)
 }
 putchar('\n');
 return (0);
+
 }

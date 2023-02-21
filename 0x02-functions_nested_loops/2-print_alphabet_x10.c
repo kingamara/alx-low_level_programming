@@ -5,7 +5,7 @@
  * Return: 0 (success)
  */
 
-void print_alphabet_x10(void) /* this code prints alphabet in roles of 10 */
+void print_alphabet_x10(void) /* this code prints alphabet in 10 roles. */
 {
 
 char c;

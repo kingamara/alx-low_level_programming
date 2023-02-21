@@ -10,7 +10,6 @@ void print_alphabet_x10(void) /* this code prints alphabet in roles of 10 */
 
 char c;
 int i = 0;
-  
 while (i <= 9)
 {
 for (c ='a'; c <= 'z'; c++)

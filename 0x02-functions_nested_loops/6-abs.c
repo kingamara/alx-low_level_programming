@@ -5,14 +5,13 @@
  * @n: integer to compute
  * Return: 0 (success)
  */
-
-int _abs(int c)
+int _abs(int n)
 {
-if (c < 0)
-{
-int abs_val;
-abs_val = c * -1;
-return (abs_val);
+if (n < 0)
+{	return (-n);
 }
-return (c);
+else if (n >= 0)
+{	return(n);
+}
+return (0);
 }

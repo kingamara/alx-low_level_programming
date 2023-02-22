@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_time_table-Print the time table od the input,
+ * print_times_table - Print the time table od the input,
  * starting with 0.
  * @n: The value os the times table to be printed.
  */
@@ -14,7 +14,7 @@ if (n >= 0 && n <= 15)
 for (num = 0; num <= n; num++)
 {
 _putchar('0');
-for (mult = 1; mult <= n; mult++) 
+ for (mult = 1; mult <= n; mult++)
 {
 _putchar(',');
 _putchar(' ');
@@ -32,7 +32,7 @@ else if (prod <= 99 && prod >= 10)
 {
 _putchar((prod / 10) + '0');
 }
-_putchar((prod %10) + '0');
+_putchar((prod % 10) + '0');
 }
 _putchar('\n');
 }

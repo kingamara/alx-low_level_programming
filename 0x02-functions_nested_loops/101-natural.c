@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the sum of all multipules of 3 and 5 to 1024
- * Return : Always (Success)
+ * Return: Always (Success)
  */
 
 int main(void)

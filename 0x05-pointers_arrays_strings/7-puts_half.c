@@ -7,6 +7,7 @@
  *
  * Return: Nothing
  */
+
 void puts_half(char *str)
 {
 int l, n;

@@ -5,8 +5,8 @@
 #define PASSWORD_LENGTH 8
 
 int main() 
-int i = 0
 {
+int i = 0
 char password[PASSWORD_LENGTH + 1]; /* +1 for null terminator*/
 const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 srand(time(NULL)); /*Seed random number generator with current time*/

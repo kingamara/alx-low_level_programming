@@ -9,6 +9,7 @@
  */
 int main(void)
 {
+<<<<<<< HEAD
   int pass[100];
   int i, sum, n;
 
@@ -30,4 +31,27 @@ int main(void)
 	}
     }
   return (0);
+=======
+	int pass[100];
+	int i, sum, n;
+
+	sum = 0;
+
+	srand(time(NULL));
+
+	for (i = 0; i < 100; i++)
+	{
+		pass[i] = rand() % 78;
+		sum += (pass[i] + '0');
+		putchar(pass[i] + '0');
+		if ((2772 - sum) - '0' < 78)
+		{
+			n = 2772 - sum - '0';
+			sum += n;
+			putchar(n + '0');
+			break;
+		}
+	}
+	return (0);
+>>>>>>> 2fb8fe6dc0d75d64504d87bf43270592321e496a
 }
